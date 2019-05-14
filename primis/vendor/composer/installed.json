@@ -2741,6 +2741,71 @@
         "description": "Drupal is an open source content management platform powering millions of websites and applications."
     },
     {
+        "name": "drupal/date_recur",
+        "version": "2.0.0-beta4",
+        "version_normalized": "2.0.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/date_recur.git",
+            "reference": "8.x-2.0-beta4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/date_recur-8.x-2.0-beta4.zip",
+            "reference": "8.x-2.0-beta4",
+            "shasum": "49fda86003ab562acd83b5915e2c95eb516393c0"
+        },
+        "require": {
+            "drupal/core": "^8.6",
+            "php": "^7.1",
+            "rlanvin/php-rrule": "1.*"
+        },
+        "require-dev": {
+            "drupal/token": "^1.5"
+        },
+        "suggest": {
+            "drupal/date_recur_interactive": "Provides an interactive recurring date widget."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.0-beta4",
+                "datestamp": "1556606885",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Frando",
+                "homepage": "https://www.drupal.org/user/21850"
+            },
+            {
+                "name": "dpi",
+                "homepage": "https://www.drupal.org/user/81431"
+            }
+        ],
+        "description": "Recurring date field.",
+        "homepage": "https://www.drupal.org/project/date_recur",
+        "keywords": [
+            "Drupal"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/date_recur",
+            "issues": "https://www.drupal.org/project/issues/date_recur"
+        }
+    },
+    {
         "name": "drupal/entity_reference_revisions",
         "version": "1.6.0",
         "version_normalized": "1.6.0.0",
@@ -5064,6 +5129,52 @@
             }
         ],
         "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "rlanvin/php-rrule",
+        "version": "v1.6.3",
+        "version_normalized": "1.6.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rlanvin/php-rrule.git",
+            "reference": "1373df401e0926cf7548716dabbc0d19603a144d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rlanvin/php-rrule/zipball/1373df401e0926cf7548716dabbc0d19603a144d",
+            "reference": "1373df401e0926cf7548716dabbc0d19603a144d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8|^5.5|^6.5"
+        },
+        "suggest": {
+            "ext-intl": "Intl extension is needed for humanReadable()"
+        },
+        "time": "2019-01-13T09:49:03+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RRule\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Lightweight and fast recurrence rules for PHP (RFC 5545)",
+        "homepage": "https://github.com/rlanvin/php-rrule",
+        "keywords": [
+            "date",
+            "ical",
+            "recurrence",
+            "recurring",
+            "rrule"
+        ]
     },
     {
         "name": "sebastian/code-unit-reverse-lookup",

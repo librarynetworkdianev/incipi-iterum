@@ -110,6 +110,7 @@ class ComposerStaticInitfa16d61824753168e823027d8b78ff98
         'R' => 
         array (
             'Robo\\' => 5,
+            'RRule\\' => 6,
         ),
         'P' => 
         array (
@@ -373,6 +374,10 @@ class ComposerStaticInitfa16d61824753168e823027d8b78ff98
         'Robo\\' => 
         array (
             0 => __DIR__ . '/..' . '/consolidation/robo/src',
+        ),
+        'RRule\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rlanvin/php-rrule/src',
         ),
         'Psy\\' => 
         array (
