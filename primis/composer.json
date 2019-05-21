@@ -24,6 +24,7 @@
         "drupal/core": "^8.6.0",
         "drupal/date_recur": "^2.0",
         "drupal/paragraphs": "^1.8",
+        "drupal/schema_metatag": "^1.3",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
