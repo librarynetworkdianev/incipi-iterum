@@ -1,9 +1,9 @@
 name: LibNetwork
 type: theme
-description: This is a sub theme of Classy for the Library Network
+description: This is a sub theme of Bartik for the Library Network
 core: 8.x
 # Defines the base theme
-base theme: classy
+base theme: bartik
 # Defines libraries group in which we can add css/js.
 libraries:
   - libnet/global-styling
