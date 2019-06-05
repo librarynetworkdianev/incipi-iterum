@@ -10,8 +10,16 @@ libraries:
 # Regions
 regions:
   header: Header
-  featured: Featured
+  menu: Menu
+  splash: Splash
+  breadcrumb: Breadcrumb
   content: Content
-  sidebar_first: First sidebar
-  sidebar_second: Second sidebar
-  footer: Footer
+  sidebar: Sidebar
+  below_left: Below Left
+  below_right: Below Right
+  below_full: Below Full
+  footer_first: Footer 1
+  footer_second: Footer 2
+  footer_third: Footer 3
+  footer_fourth: Footer 4
+  footer_full: Footer Full
