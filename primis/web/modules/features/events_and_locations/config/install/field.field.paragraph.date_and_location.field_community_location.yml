@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_community_location
+    - paragraphs.paragraphs_type.date_and_location
+id: paragraph.date_and_location.field_community_location
+field_name: field_community_location
+entity_type: paragraph
+bundle: date_and_location
+label: 'Community Location'
+description: 'Only enter if event isn''t held at a library.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.field_age_group
+    - field.field.node.event.field_date_and_location
+    - field.field.node.event.field_description
+    - field.field.node.event.field_event_type
+    - field.field.node.event.field_identifier
+    - field.field.node.event.field_special_program
+    - node.type.event
+  module:
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_age_group: true
+  field_date_and_location: true
+  field_description: true
+  field_event_type: true
+  field_identifier: true
+  field_special_program: true
+  langcode: true
