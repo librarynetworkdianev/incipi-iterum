@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:62ad0ea2-eb62-4e40-a827-5bdc78bf6a36'
+  module:
+    - block_content
+    - node
+  theme:
+    - libnet
+id: weareclosedonthefollowingholidays
+theme: libnet
+region: sidebar
+weight: -6
+provider: null
+plugin: 'block_content:62ad0ea2-eb62-4e40-a827-5bdc78bf6a36'
+settings:
+  id: 'block_content:62ad0ea2-eb62-4e40-a827-5bdc78bf6a36'
+  label: 'We are closed on the following holidays:'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      location: location
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

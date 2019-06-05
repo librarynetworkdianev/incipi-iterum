@@ -1,0 +1,13 @@
+name: 'Blocks and Menus'
+type: module
+core: 8.x
+version: 8.x-1.0
+dependencies:
+  - block
+  - block_content
+  - field
+  - field_layout
+  - layout_discovery
+  - node
+  - system
+  - text
