@@ -25,6 +25,7 @@
         "drupal/core": "^8.6.0",
         "drupal/date_recur": "^2.0",
         "drupal/date_recur_modular": "^1.0@alpha",
+        "drupal/features": "^3.8",
         "drupal/feeds": "^3.0@alpha",
         "drupal/paragraphs": "^1.8",
         "drupal/schema_metatag": "^1.3",
