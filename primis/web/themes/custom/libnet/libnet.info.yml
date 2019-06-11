@@ -9,6 +9,7 @@ libraries:
   - libnet/global-styling
 # Regions
 regions:
+  highlighted: Highlighted
   header: Header
   menu: Menu
   splash: Splash

@@ -1,1 +1,684 @@
 /*Global Stylesheet....Wahoo!!!*/
+
+.dialog-off-canvas-main-canvas div.highlighted {
+	
+	padding: 10px 0 7px;
+	width: 100%!important;
+	background-color: #ffdd00;
+	text-align: center;
+	display: none!important;
+}
+
+.dialog-off-canvas-main-canvas div.highlighted .content {
+	margin: 0;
+}
+
+.dialog-off-canvas-main-canvas div.highlighted p {
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.region-header .site-branding__text a, 
+.region-header .site-branding a,
+.region-header .site-branding__slogan {
+	color: transparent;
+	font-size: 0px;
+}
+
+body.page-node-type-page {
+	background-color: #b4e3e0;
+}
+
+body {
+	font-family: "Avenir Next W01",sans-serif;
+	font-size: 1.05rem;
+}
+
+
+/*
+	
+	.region-primary-menu .menu-item a.is-active, .region-primary-menu .menu-item--active-trail a
+	
+	
+	
+*/
+
+
+/*Region settings*/ /*This is where I will be defining the width of the site on mobile up to desktop*/
+
+#page, 
+#main,
+footer .site-footer {
+	width: 100%;
+	max-width: 1200px;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+
+#main {
+	padding: 20px 40px;
+	max-width: 1120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Header Styles*/
+
+
+.region-header .site-branding {
+	width: 30.5%
+}
+
+.region-header .site-branding__logo,
+.region-header .site-branding__text {
+	float: left;
+}
+
+.region-header .site-branding__text {
+	width: 5px;
+	height: 0;
+	margin-bottom: 0;
+}
+
+/*Search in header styling*/
+
+
+.region-header #block-awesomesearchsection {
+	width: 45%;
+	float: left;
+	clear: none;
+}
+
+/*.region-header {
+	position: absolute;
+	z-index: 100;
+	bottom: 10px;
+	left: 10px;
+	height: 100px;
+	width: 50%;
+}
+
+.not-front #region-branding {
+	overflow: visible;
+}
+
+.not-front .region-header {
+	/*bottom: -110px;*/
+	/*bottom: 20px;
+}
+
+
+*/
+
+.region-header .simpleTabs {
+ 	background: rgba(52,110,126,.5);
+ 	border: 2px solid #ffffff;
+ 	border-radius: 0!important;
+ 	width: 100%;
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li a {
+	border: 1px solid rgb(181,235,250);
+	color: rgb(52,110,126);
+	background: rgb(181,235,250);
+	font-family: Arial, sans-serif;
+ 	font-weight: normal;
+ 	font-size: 14px;
+ 	border-bottom: 0px solid rgb(181,235,250);
+ 	padding: 3px 5px;
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li a:hover {
+	background: rgb(52,110,126);
+	color: #ffffff;
+	border: 1px solid rgb(52,110,126);
+	border-bottom: 0px solid rgb(52,110,126);
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li.overdrive {
+	/*position: absolute;
+	right: 0;*/
+	margin-top: -3px;
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li.overdrive a {
+	border: none;
+	background: transparent;
+	color: #ffffff;
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li.overdrive a:hover {
+	color: rgb(181,235,250);
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li.overdrive a span {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.region-header .simpleTabs ul.simpleTabsNavigation li a.current,
+.region-header .simpleTabs ul.simpleTabsNavigation li a.current:hover {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	color: rgb(52,110,126);
+}
+
+.region-header .simpleTabs div.simpleTabsContent {
+	border: 1px solid #ffffff;
+	padding: 5px 5px 5px 10px;
+	width: 97%;
+}
+
+.region-header .simpleTabs div.simpleTabsContent p br {
+	display: none!important;
+}
+
+.region-header .simpleTabs div.simpleTabsContent form p select {
+	width: 26%!important;
+	float: left;
+	height: 35px;
+	padding-left: 10px;
+}
+
+.region-header .simpleTabs div.simpleTabsContent form input[name="uquery"] {
+	width: 55%;
+	float: left;
+	height: 35px;
+	margin-right: -5px;
+}
+
+.region-header .simpleTabs div.simpleTabsContent form input[value="Go"] {
+	width: 100px;
+	border-radius: 0!important;
+	color: #ffffff;
+	background: rgb(52,110,126);
+	height: 35px;
+	border: 1px solid rgb(52,110,126);
+	max-width: 16%;
+	font-weight: normal;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.region-header .simpleTabs div.simpleTabsContent form input[value="Go"]:hover {
+	background: #56b6cc;
+	border-bottom: 1px solid #56b6cc;
+	border-left: 1px solid #56b6cc;
+}
+
+/*Catalog only part of the New Search styling*/
+
+.region-header .simpleTabs form #SearchCriteria {
+	width: 88%;
+	max-width: 466px;
+	height: 35px;
+	float: left;
+	padding-left: 5px;
+}
+
+.region-header .simpleTabs div.simpleTabsContent form input#SearchGo {
+	margin-bottom: 5px;
+}
+
+
+.region-header .simpleTabs form {
+	width: 100%;
+	max-width: 572px;
+}
+
+.region-header button:focus,
+.region-header button:active,
+.region-header input:focus,
+.region-header input:active,
+.region-header select:focus,
+.region-header select:active,
+.region-header textarea:focus,
+.region-header textarea:active {
+	box-shadow: none!important;
+}
+
+
+/*Keeping above styling.  Mulling and pondering below styling for the new search box styling*/
+
+.region-header .ebscohostCustomSearchBox {
+	/*width: 300px;*/
+}
+
+.region-header .ebscohostCustomSearchBox > div {
+	/*background-image: url(http://www.communitylibrary.net/drupal7/sites/default/files/CINLogo-140-55.png)!important;*/
+	background-image: none!important;
+	
+}
+
+.region-header .ebscohostCustomSearchBox > div > div {
+	padding-left: 20px!important;
+	padding-top: 0!important;
+}
+
+.region-header .ebscohostCustomSearchBox > div > div .ebscohost-title {
+	color: #ffffff;
+	font-weight: normal!important;
+	padding-top: 2px;
+	display: block;
+}
+
+.region-header .ebscohostCustomSearchBox #ebscohostsearchtext {
+	width: 90%!important;
+	float: left;
+	margin: 4px 10px 0 0;
+}
+
+.region-header .ebscohostCustomSearchBox .ebscohost-search-button  {
+	float: left;
+	padding-bottom: 0!important;
+	text-indent: -999px;
+	background-image: url(http://www.communitylibrary.net/drupal7/sites/default/files/CLN-search-icon-3.png)!important;
+	height: 30px;
+	width: 30px;
+	border-radius: none!important;
+	border: none!important;
+	margin-top: -1px;
+}
+
+.region-header .ebscohostCustomSearchBox #guidedFieldSelectors {
+	clear: left;
+	margin-top: -3px;
+}
+
+.region-header .ebscohostCustomSearchBox #guidedFieldSelectors input {
+	width: 10px;
+	float: left; 
+	margin: 3px 5px 0 0;
+}
+
+.region-header .ebscohostCustomSearchBox #guidedFieldSelectors label {
+	width: 25px;
+	float: left; 
+	margin-right: 10px;
+}
+
+.region-header .ebscohostCustomSearchBox #guidedFieldSelectors label[for="guidedField_0"] {
+	width: 48px;
+}
+
+.region-header .ebscohostCustomSearchBox br,
+.region-header .ebscohostCustomSearchBox #ebscohostsearchtext + br,
+.region-header .ebscohostCustomSearchBox #guidedFieldSelectors br,
+.page-node-172 #block-block-61 {
+	display: none!important;
+}
+
+/*Testing Tweaking functionality of search 6.22.18*/
+
+.page-node-172 #block-block-38,
+.page-node-714 #block-block-38 {
+	display: none;
+}
+
+.page-node-172 #block-block-132,
+.page-node-714 #block-block-132 {
+	margin-top: -200px;
+	position: relative;
+	z-index: 9999;
+	margin-bottom: 45px;
+}
+
+.region-header div.simpleTabs {
+	/*width: 100%;
+	max-width: 700px;*/
+}
+
+.region-header div.simpleTabs li a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+
+/**/
+
+
+
+/*Menu in header styling*/
+
+header .region-menu {
+	/*background-color: #8f9ca9; The gray color doesn't work after all */
+	background-color: #a1397c;
+}
+
+nav#block-libnet-main-menu ul.menu,
+nav#block-libnet-main-menu ul.menu li {
+	padding: 0;
+}
+
+nav#block-libnet-main-menu ul.menu li {
+	width: 18%;
+	float: left;
+}
+
+nav#block-libnet-main-menu ul.menu li a {
+	text-align: center;
+	/*color: #ffffff;*/
+	color: #e7feeb;
+	display: block;
+	font-size: 1.25rem;
+	padding: 5px;
+}
+
+nav#block-libnet-main-menu ul.menu li a:hover {
+	/*color: #bf73b7; cool purple-pink color */
+	 color: #a1397c;
+	 background-color: #e7feeb;
+}
+
+nav#block-libnet-main-menu ul.menu li.menu-item--active-trail a {
+	 /*color: #e6e6e6;*/
+	 color: #ffffff;
+	 font-weight: bold;
+}
+
+.path-frontpage nav#block-libnet-main-menu ul.menu li.menu-item--active-trail,
+.path-frontpage nav#block-libnet-main-menu ul.menu li.menu-item--active-trail a,
+.path-frontpage nav#block-libnet-main-menu ul.menu li.menu-item a.is-active {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Splash Section*/
+
+/*Front page slideshow*/
+
+
+
+
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2,
+.libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 img,
+.libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 ul,
+.libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 ul li,
+.libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 ul li a,
+.libraryaware_widget_9ea4dbc919304a5288993e29c2c6e55b img,
+.libraryaware_widget_9ea4dbc919304a5288993e29c2c6e55b,
+.libraryaware_widget_9ea4dbc919304a5288993e29c2c6e55b ul,
+.libraryaware_widget_9ea4dbc919304a5288993e29c2c6e55b ul li,
+.libraryaware_widget_9ea4dbc919304a5288993e29c2c6e55b ul li a {
+	
+	
+	width:100%!important;
+}
+
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:400px!important;
+}
+
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 ul li a img {
+	height: auto!important;
+}
+
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 ul li a img:after {
+	content: "Click for more information";
+	font-size: 13px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: -375px;
+}	
+	
+	
+	
+	
+/*Content Section*/
+
+/*Front page*/
+
+.path-frontpage #page #main-wrapper {
+	display: none;
+	
+}
+
+.path-frontpage footer.site-footer {
+	margin-top: 20px;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer styles*/
+
+footer.site-footer {
+	border-top: 4px solid #a1397c;
+	border-bottom: 20px solid #a1397c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ----------------------Media Queries-----------------------  */
+	
+
+
+
+@media (max-width: 1100px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:370px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+
+@media (max-width: 1000px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:340px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+@media (max-width: 900px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:310px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+@media (max-width: 800px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:280px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+@media (max-width: 700px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:250px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+@media (max-width: 600px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:220px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+@media (max-width: 500px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	
+	
+	height:190px!important;
+}	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+@media (max-width: 400px) {
+	
+	
+#block-slideshowfromlibraryawarefornewtestsite-2 .libraryaware_widget_8d2ec8a5124942db9bfb02d8ff3aadd2 {
+	height:160px!important;
+	
+}	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
