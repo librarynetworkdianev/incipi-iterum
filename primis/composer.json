@@ -21,6 +21,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/address": "^1.6",
+        "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/console": "~1.0",
         "drupal/core": "^8.6.0",
         "drupal/date_recur": "^2.0",
