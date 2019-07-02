@@ -1,0 +1,6 @@
+[submodule "primis/web/modules/contrib/feeds_tamper"]
+	path = primis/web/modules/contrib/feeds_tamper
+	url = https://git.drupalcode.org/project/feeds_tamper.git
+[submodule "primis/web/modules/contrib/tamper"]
+	path = primis/web/modules/contrib/tamper
+	url = https://git.drupalcode.org/project/tamper.git
