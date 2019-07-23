@@ -3356,6 +3356,51 @@
         }
     },
     {
+        "name": "drupal/feeds_para_mapper",
+        "version": "dev-1.x",
+        "version_normalized": "dev-1.x",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/feeds_para_mapper.git",
+            "reference": "ae45c3bd1ec678a5c8e83b544de8e768a00346ce"
+        },
+        "require": {
+            "drupal/core": "~8",
+            "drupal/feeds": "~3.0",
+            "drupal/paragraphs": "~1.5"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.x-dev",
+                "datestamp": "1557646685",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Dev releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "hussein-elhussein",
+                "homepage": "https://www.drupal.org/user/3522231"
+            }
+        ],
+        "description": "Allows mapping to Paragraphs fields.",
+        "homepage": "https://www.drupal.org/project/feeds_para_mapper",
+        "support": {
+            "source": "https://git.drupalcode.org/project/feeds_para_mapper"
+        }
+    },
+    {
         "name": "drupal/feeds_tamper",
         "version": "dev-2.x",
         "version_normalized": "dev-2.x",
@@ -3578,6 +3623,57 @@
         }
     },
     {
+        "name": "drupal/responsive_menu",
+        "version": "2.6.0",
+        "version_normalized": "2.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/responsive_menu.git",
+            "reference": "8.x-2.6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/responsive_menu-8.x-2.6.zip",
+            "reference": "8.x-2.6",
+            "shasum": "8dc4f4251ada211fad52aa9d0c02d50c4752d457"
+        },
+        "require": {
+            "drupal/core": "^8.4"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-2.x": "2.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-2.6",
+                "datestamp": "1515872884",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Tancredi D'Onofrio (tanc)",
+                "homepage": "https://www.drupal.org/u/tanc",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Provides a javascript based off-canvas responsive menu with depth. At wider browser widths it provides a horizontal menu capable of drop downs and flyouts",
+        "homepage": "https://drupal.org/project/responsive_menu",
+        "support": {
+            "source": "https://cgit.drupalcode.org/responsive_menu",
+            "issues": "https://drupal.org/project/issues/responsive_menu"
+        }
+    },
+    {
         "name": "drupal/schema_metatag",
         "version": "1.3.0",
         "version_normalized": "1.3.0.0",
@@ -3697,6 +3793,55 @@
         }
     },
     {
+        "name": "drupal/text_resize",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/text_resize.git",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/text_resize-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "ed3e8b7e136747fbc3fb24607436a7a58f082d7b"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1502908144",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "attheshow",
+                "homepage": "https://www.drupal.org/user/249768"
+            }
+        ],
+        "description": "Creates a block that allows your users to resize text on the page.",
+        "homepage": "https://www.drupal.org/project/text_resize",
+        "support": {
+            "source": "https://git.drupalcode.org/project/text_resize"
+        }
+    },
+    {
         "name": "drupal/token",
         "version": "1.5.0",
         "version_normalized": "1.5.0.0",
@@ -3763,6 +3908,92 @@
         "homepage": "https://www.drupal.org/project/token",
         "support": {
             "source": "https://git.drupalcode.org/project/token"
+        }
+    },
+    {
+        "name": "drupal/xmlsitemap",
+        "version": "1.0.0-alpha3",
+        "version_normalized": "1.0.0.0-alpha3",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/xmlsitemap.git",
+            "reference": "8.x-1.0-alpha3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/xmlsitemap-8.x-1.0-alpha3.zip",
+            "reference": "8.x-1.0-alpha3",
+            "shasum": "5318e0eaa1710f5d02021b406135e1a1b038ed4f"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "ext-xmlwriter": "*"
+        },
+        "require-dev": {
+            "drupal/robotstxt": "^1.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha3",
+                "datestamp": "1538607180",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Dave Reid",
+                "homepage": "https://www.drupal.org/user/53892"
+            },
+            {
+                "name": "RenatoG",
+                "homepage": "https://www.drupal.org/user/3326031"
+            },
+            {
+                "name": "amateescu",
+                "homepage": "https://www.drupal.org/user/729614"
+            },
+            {
+                "name": "andrei.dincu",
+                "homepage": "https://www.drupal.org/user/2628879"
+            },
+            {
+                "name": "juampynr",
+                "homepage": "https://www.drupal.org/user/682736"
+            },
+            {
+                "name": "paulmckibben",
+                "homepage": "https://www.drupal.org/user/279003"
+            },
+            {
+                "name": "pifagor",
+                "homepage": "https://www.drupal.org/user/2375692"
+            },
+            {
+                "name": "tadityar",
+                "homepage": "https://www.drupal.org/user/3094465"
+            },
+            {
+                "name": "th_tushar",
+                "homepage": "https://www.drupal.org/user/1835276"
+            }
+        ],
+        "description": "Creates XML sitemaps for the site",
+        "homepage": "https://www.drupal.org/project/xmlsitemap",
+        "support": {
+            "source": "http://cgit.drupalcode.org/xmlsitemap",
+            "issues": "http://drupal.org/project/issues/xmlsitemap"
         }
     },
     {
