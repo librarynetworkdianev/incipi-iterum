@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: 'Special Program'
-vid: special_program
-description: ''
-hierarchy: 0
-weight: 0

@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - paragraphs
-id: paragraph.paragraph_full_content_view_mode
-label: 'Paragraph Full Content view mode'
-targetEntityType: paragraph
-cache: true
