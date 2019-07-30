@@ -1,0 +1,30 @@
+<?php
+
+use Drupal\Core\Entity\EntityInterface;
+
+/*
+ * Module for Feeds customization for CLN.
+ */
+
+/**
+ * Implements hook_ENTITY_TYPE_insert() for 'paragraph'.
+ */
+function cln_feeds_paragraph_insert(EntityInterface $paragraph) {
+  $parent_type = $paragraph->parent_type->value;
+  $parent_field_name = $paragraph->parent_field_name->value;
+  $parent_id = $paragraph->parent_id->value;
+
+  $node = \Drupal::entityTypeManager()->getStorage($parent_type)->load($parent_id);
+  if ($node) {
+    // Check if node already has a reference to this paragraph.
+    foreach ($node->{$parent_field_name} as $item) {
+      if ($item->target_id == $paragraph->id()) {
+        // Paragraph found. Abort.
+        return;
+      }
+    }
+
+    $node->{$parent_field_name}[] = $paragraph;
+    $node->save();
+  }
+}

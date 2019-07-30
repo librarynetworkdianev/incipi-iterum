@@ -1,0 +1,6 @@
+name: CLN Feeds
+description: 'Custom stuff for CLN for Feeds'
+package: Feeds
+type: module
+version: '8.x-1.0'
+core: '8.x'
