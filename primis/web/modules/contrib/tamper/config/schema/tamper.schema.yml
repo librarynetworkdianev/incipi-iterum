@@ -136,3 +136,21 @@ tamper.truncate_text:
     wordsafe:
       type: boolean
       label: 'Truncate on a word boundary'
+
+tamper.entity_finder:
+  mapping:
+    update:
+      type: string
+      label: 'Update'
+    entity_type:
+      type: string
+      label: 'Entity type'
+    bundle:
+      type: string
+      label: 'Bundle'
+    field:
+      type: string
+      label: 'Field'
+    column:
+      type: string
+      label: 'Column'
