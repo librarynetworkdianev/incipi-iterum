@@ -1,0 +1,14 @@
+#libnet.breakpoints.yml
+
+libnet.mobile:
+  label: mobile
+  mediaQuery: 'all and (min-width: 559px)'
+  weight: 0
+  multipliers:
+    - 1x
+libnet.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 851px)'
+  weight: 2
+  multipliers:
+    - 1x
