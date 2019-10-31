@@ -10,8 +10,8 @@ libraries:
 # Regions
 regions:
   highlighted: Highlighted
-  header: Header
   menu: Menu
+  header: Header
   splash: Splash
   breadcrumb: Breadcrumb
   content: Content

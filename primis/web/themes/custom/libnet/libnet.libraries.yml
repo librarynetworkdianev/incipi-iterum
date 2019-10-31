@@ -1,6 +1,10 @@
+#libnet.libraries.yml
+
 global-styling:
   css:
     component:
       css/style.css: {}
       css/print.css: { media: print }
       
+  js:
+    js/logo-magic.js: {}
